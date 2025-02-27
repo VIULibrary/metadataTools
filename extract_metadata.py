@@ -26,6 +26,6 @@ def extract_metadata(input_file, output_file):
             f.write(genre + '\n')
 
 if __name__ == "__main__":
-    input_file = 'VIUOnlyCount2.xml'
+    input_file = 'inputfile.xml'
     output_file = 'outputfile.txt'
     extract_metadata(input_file, output_file)
