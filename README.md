@@ -1,17 +1,16 @@
 # metadataTools #
 
-**some tools for processing metadata**
+## some tools for processing metadata ##
 
+ **extract_metadata.py**
 
-1.   `modGenreExtract.py` => Extracts the contents of `<mods:genre>` from your XML OAI export. Permute unique lines in Sublime Text to get a list of unique values. 
+1. 'extract_metadata.py` => Extracts the contents of `<mods:title>`, `<mods:subject>`, and `<mods:genre>`, and writes them to an output file
 
+2. `<mods:subject>`, and `<mods:genre>` are filtered to output only the unique values.
 
-- Set input/output file and run `python modGenreExtract.py`
+3. Set input/output file and run `python extract_metadata.py`
 
-
-2.  . . . 
-
-3.  . . . 
+- with a nod to Mark Jordan's [metadata_reporter](https://github.com/mjordan/metadata_reporter)
 
 
 
