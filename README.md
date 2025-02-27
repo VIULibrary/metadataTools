@@ -4,7 +4,7 @@
 
  **extract_metadata.py**
 
-1. 'extract_metadata.py` => Extracts the contents of `<mods:title>`, `<mods:subject>`, and `<mods:genre>`, and writes them to an output file
+1. Extracts the contents of `<mods:title>`, `<mods:subject>`, and `<mods:genre>`, from an OAI harvest XML file, and writes them to a new output file.
 
 2. `<mods:subject>`, and `<mods:genre>` are filtered to output only the unique values.
 
